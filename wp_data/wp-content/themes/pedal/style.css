@@ -1,0 +1,134 @@
+/*
+ Theme Name:   Pedal
+ Description:  Pedal
+ Author:       e-JYBT
+ Author URI:   null
+ Template:     twentytwenty
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  tPedal
+*/
+img{
+    max-width: 100%;
+}
+
+body {
+    background: #c9c9c9;
+}
+
+.site-header{
+    background-color:#345434;
+    padding-top: 0;
+    display: block;
+    box-sizing: border-box;
+}
+.navbar{
+    right: 0;
+    left: 0;
+    box-shadow: none!important;
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    background-color: #345434;
+}
+ .container{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto; 
+    margin-left: auto;
+ }
+.navbar-collapse{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+.navlist{
+    margin: 0;
+    font-weight: 400;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    
+    padding-left: 0px;
+    overflow: hidden;
+    list-style: none;
+}
+.navlist li{
+    position: relative;
+    display: inline-block;
+    text-align: -webkit-match-parent;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-home a{
+    font-size: 24px;
+    color: hsla(0,0%,100%,.8);
+    text-decoration: none;
+}
+
+.body-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    top: 100px;
+}
+.info{
+    position: relative;
+    top: 20px;
+}
+.buttons{
+    position: relative;
+    left:auto;
+    margin-top: 40px;
+}
+.buttons button{
+    background-color: #345434;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.buttons a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.first-row{
+    position: relative;
+    margin-top: 40px;
+}
+.second-row{
+    position: relative;
+    margin-top: 40px;
+}
+.shop-view{
+    position: relative;
+    
+}
+.ticket-search{
+    position: relative;
+    margin-left: 50%;
+}
+.check-out{
+    position: relative;
+}
+.new-ticket{
+    position: relative;
+    margin-left: 50%;
+}
+.info p{
+    text-align: center;
+    font-size: 30px;
+}
+
